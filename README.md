@@ -55,4 +55,4 @@
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.開啟 Git Shell
 
-<div style="text-align: center" >![08](https://github.com/a65162/Git-Learnig/blob/master/img/08.jpg)</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![08](https://github.com/a65162/Git-Learnig/blob/master/img/08.jpg)
