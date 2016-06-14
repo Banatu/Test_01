@@ -56,3 +56,30 @@
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.開啟 Git Shell
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![08](https://github.com/a65162/Git-Learnig/blob/master/img/08.jpg)
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.開啟後出現的視窗
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![09](https://github.com/a65162/Git-Learnig/blob/master/img/09.jpg)
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.請創一個資料夾 並進入此資料夾 指令如下
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![10](https://github.com/a65162/Git-Learnig/blob/master/img/10.jpg)
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.本案例要管理abc資料夾  在命令次元下輸入 git init
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![11](https://github.com/a65162/Git-Learnig/blob/master/img/11.jpg)
+  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;當底下出現Master時 表示已成功管理此資料夾
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.我們在abc資料夾下創建一個記事本
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![12](https://github.com/a65162/Git-Learnig/blob/master/img/12.jpg)
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.在命令次元下 輸入 git status ，Git會告訴你當下有一個New Text Document.txt 的檔案還未加入
+   Staging area
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![13](https://github.com/a65162/Git-Learnig/blob/master/img/13.jpg)  
+
+  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在Git中有分三個工作區塊<br/>
+Working Directory: 所有的修改、變動都發生在這個階段。(本地的資料夾)<br/>
+Staging area: 作為一個中繼的工作區，在將檔案放入資料庫之前做確認及檢查的                       工作區，確認無誤後就可以將檔案轉移至資料庫。 (當執行git add . 會使用到)<br/>
+Repository: 資料庫，儲存著更新的 commit，而線上資料庫會和本機的這個區域進行同步。
