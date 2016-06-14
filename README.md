@@ -52,7 +52,7 @@
 
 <br/><br/><br/>
 
- ## git init 、git add . 、 git commit -m "your message" 操作篇
+ ## git init
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.開啟 Git Shell
 
