@@ -80,6 +80,89 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![13](https://github.com/a65162/Git-Learnig/blob/master/img/13.jpg)  
 
   >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在Git中有分三個工作區塊<br/>
-Working Directory: 所有的修改、變動都發生在這個階段。(本地的資料夾)<br/>
-Staging area: 作為一個中繼的工作區，在將檔案放入資料庫之前做確認及檢查的                       工作區，確認無誤後就可以將檔案轉移至資料庫。 (當執行git add . 會使用到)<br/>
-Repository: 資料庫，儲存著更新的 commit，而線上資料庫會和本機的這個區域進行同步。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Working Directory: 所有的修改、變動都發生在這個階段。(本地的資料夾)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Staging area: 作為一個中繼的工作區，在將檔案放入資料庫之前做確認及檢查的                       工作區，確認無誤後就可以將檔案轉移至資料庫。 (當執行git add . 會使用到)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repository: 資料庫，儲存著更新的 commit，而線上資料庫會和本機的這個區域進行同步。
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.輸入 git add . 把此檔案新增到Staging area 此時再輸入git status ，Git 會告訴你 New Text Document.txt 可以commit  
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![14](https://github.com/a65162/Git-Learnig/blob/master/img/14.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9.輸入 git commit -m "add file"  就成功完成更新 本地的Repository
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![15](https://github.com/a65162/Git-Learnig/blob/master/img/15.jpg)
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps. git commit -m "your message"   your message :寫下更新的重點
+
+<br/><br/><br/>
+## Git clone 操作篇
+
+&nbsp;&nbsp;&nbsp;&nbsp;Git clone 的目的是要複製遠端的Repository  
+&nbsp;&nbsp;&nbsp;&nbsp;本教學以GitHub為例  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.先連至 https://github.com/  並在Search GitHub 搜尋 css
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![16](https://github.com/a65162/Git-Learnig/blob/master/img/16.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.我們以 https://github.com/hakimel/css 來舉例 請點選 Clone or download 的按鈕
+複製出現的網址
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![17](https://github.com/a65162/Git-Learnig/blob/master/img/17.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.請打開 GitShell 輸入以下指令 它會下載在GitHub資料夾下
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![18](https://github.com/a65162/Git-Learnig/blob/master/img/18.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.瀏覽剛剛下載的專案 當有出現時表示成功clone別人的Repository
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![19](https://github.com/a65162/Git-Learnig/blob/master/img/19.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![20](https://github.com/a65162/Git-Learnig/blob/master/img/20.jpg)
+
+<br/><br/><br/>
+
+## git push 操作篇
+
+&nbsp;&nbsp;&nbsp;&nbsp;push 的目的是將本地的Repository 上傳至遠端的Repository
+
+&nbsp;&nbsp;&nbsp;&nbsp;以下教學以GitHub為例
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.請連至https://github.com/ ，請點選New Repository
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![21](https://github.com/a65162/Git-Learnig/blob/master/img/21.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.將Repository name 命名為abc，並點下Create Repository
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![22](https://github.com/a65162/Git-Learnig/blob/master/img/22.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.此視窗是建立好的畫面
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![23](https://github.com/a65162/Git-Learnig/blob/master/img/23.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.在 git init 、git add . 、 git commit -m "your message" 操作篇 中 已經完成了一個專案 以此專案為例push到遠端的Repository
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![24](https://github.com/a65162/Git-Learnig/blob/master/img/24.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.首先我們要先建立 連接遠端必要指令 如下
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![25](https://github.com/a65162/Git-Learnig/blob/master/img/25.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![26](https://github.com/a65162/Git-Learnig/blob/master/img/26.jpg)
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ps. git remote add "name" "position" name:可以由開發者自行命名 position:遠端專案所在的位置
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.檢查是否有建立成功 如圖下
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![27](https://github.com/a65162/Git-Learnig/blob/master/img/27.jpg)
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps.有出現abc 表示建立成功
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.建立好連線時 開始要push 至遠端的Repository 如圖下
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![28](https://github.com/a65162/Git-Learnig/blob/master/img/28.jpg)
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps. git push "name" "branch" name在上一個步驟時以命名為abc 。branch 依照你要上傳的branch而定
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.看看剛剛GitHub所創的abc Repository 是否有出現資料了
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![29](https://github.com/a65162/Git-Learnig/blob/master/img/29.jpg)
