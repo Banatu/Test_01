@@ -22,4 +22,4 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.請至https://desktop.github.com/ 下載GUI 介面
 
-![01](/path/to/img.jpg) 
+![01](https://github.com/a65162/Git-Learnig/blob/master/img/01.jpg) 
