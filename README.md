@@ -4,7 +4,7 @@ Git 是一個版本管理軟體，跟以往的中央式儲存(工具如:Tortoise
 Git的詳細介紹可參考 [請點我](https://git-scm.com/book/zh/v2 "Git")
 
 
-
+<br/><br/><br/>
 
 ## 使用Git有什麼好處?
 
@@ -18,35 +18,18 @@ Git的詳細介紹可參考 [請點我](https://git-scm.com/book/zh/v2 "Git")
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.在開發新版本時，能方便管理版本
 
-
-
+<br/><br/><br/>
 
 ## Git在什麼情況下使用?
 
 在stable版本上 要開發新功能，而我們總不可能再stable版本上直接進行加入新的代碼，影響到stable的穩定性，這時候Git就能派上用場，Git可以另外開一個branch，意思就是拷貝一份stable版本到新的branch上進行開發，就算弄壞了，也不影響stable的功能。
 
-branch 詳細介紹 [請點我](https://git-scm.com/book/zh-tw/v1/Git-%E5%88%86%E6%94%AF-%E4%BD%95%E8%AC%82%E5%88%86%E6%94%AF "Branch")
+branch 詳細介紹 [請點我](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B "Branch")
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/><br/><br/>
 
 
 
