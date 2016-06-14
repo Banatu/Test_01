@@ -3,4 +3,4 @@
 
 ## 前言
 
-![Alt text](../Git-learnig/01.jpg)
+![Alt text](https://github.com/a65162/Git-learnig/blob/master/01.jpg)
