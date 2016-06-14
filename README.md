@@ -30,6 +30,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 請按Install
 
-![03](https://github.com/a65162/Git-Learnig/blob/master/img/03.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![03](https://github.com/a65162/Git-Learnig/blob/master/img/03.jpg)
 
-![04](https://github.com/a65162/Git-Learnig/blob/master/img/04.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![04](https://github.com/a65162/Git-Learnig/blob/master/img/04.jpg)
