@@ -1,21 +1,52 @@
-# Git
+## Git是什麼?
+Git 是一個版本管理軟體，跟以往的中央式儲存(工具如:TortoiseSVN、Ankhsvn..等等)有很大的差別Git是分散式儲存，可以輕鬆的把遠端的資料複製下來，進行修改或獨立進行版本控制，在無網路情控下也能自己進行版本控制。
+
+Git的詳細介紹可參考 [請點我](https://git-scm.com/book/zh/v2 "Git")
 
 
-## 前言
 
-   &nbsp;&nbsp;&nbsp;&nbsp;Git是從2005年創立的開源分散式版本控制系統，由Linus Torvalds創作，為了幫助管理Linux內核開發而開發出來的開源軟體。<br/>
-   &nbsp;&nbsp;&nbsp;&nbsp;當初全世界Linux開發人員所使用的BitKeeper屬於私人軟體，在開放源社區上遭他人反對認為BitKeeper的軟體並不適合在開放源社區的工作，所以Linus Torvalds決定開始著手開發比BitKeeper還要好的版本控制系統，雖然最初目的是為了管理Linux內核的開發，但是後來發現很多自由軟體也使用了Git 。
 
-<br/><br/><br/>
-## 什麼時候使用Git?
+## 使用Git有什麼好處?
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.方便查詢過去更改的紀錄內容
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.方便查詢過去修改、新增、復原的紀錄內容
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.可以隨意復原之前的紀錄內容
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.多人合作開發時，不會覆蓋到別人的東西
 
-<br/><br/><br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.在斷網情況下也能作業
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.在開發新版本時，能方便管理版本
+
+
+
+
+## Git在什麼情況下使用?
+
+在stable版本上 要開發新功能，而我們總不可能再stable版本上直接進行加入新的代碼，影響到stable的穩定性，這時候Git就能派上用場，Git可以另外開一個branch，意思就是拷貝一份stable版本到新的branch上進行開發，就算弄壞了，也不影響stable的功能。
+
+branch 詳細介紹 [請點我](https://git-scm.com/book/zh-tw/v1/Git-%E5%88%86%E6%94%AF-%E4%BD%95%E8%AC%82%E5%88%86%E6%94%AF "Branch")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
