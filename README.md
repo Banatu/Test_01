@@ -165,3 +165,44 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.看看剛剛GitHub所創的abc Repository 是否有出現資料了
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![29](https://github.com/a65162/Git-Learnig/blob/master/img/29.jpg)
+
+## Git pull 操作篇
+
+&nbsp;&nbsp;&nbsp;&nbsp;pull的目的是取的遠端的資料並與本地的資料進行合併 = 同步
+
+&nbsp;&nbsp;&nbsp;&nbsp;假設有兩個人負責一個專案<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;A負責 修改 New text Document.txt<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;並新增abc檔案<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;並push至遠端的Repository <br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;此時B 本地的Repository <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;還沒有A更新過的資料<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;就必須用到pull來更新本地的Repository <br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.依照PUSH 操作篇在新增一個abcd的文件，並修改New text Document.txt裡的內容
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![30](https://github.com/a65162/Git-Learnig/blob/master/img/30.jpg)
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps.以上步驟是代替A這個人物
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.B的本地Repository 與遠端的Repository  並不一致
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![31](https://github.com/a65162/Git-Learnig/blob/master/img/31.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![32](https://github.com/a65162/Git-Learnig/blob/master/img/32.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.開始與遠端Repository 進行同步 如圖下
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![33](https://github.com/a65162/Git-Learnig/blob/master/img/33.jpg)
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ps. git pull "position" position:遠端專案所在的位置
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.同步成功後 B本地的Repository會新增 abcd的檔案 及修改過後的New Text Document.txt
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![34](https://github.com/a65162/Git-Learnig/blob/master/img/34.jpg)
+
+
+參考資料網址:http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://codeplanet.me/archives/2015/06/install-sourcetree/<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://zh.wikipedia.org/wiki/Git<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://baike.baidu.com/subview/1531489/12032478.htm<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html<br/>
