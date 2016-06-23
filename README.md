@@ -67,6 +67,7 @@ git flow可以知道大型專案的分支使用模式，要告訴別人你會了
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ----------------------
 
@@ -79,3 +80,14 @@ Autumn.............
 
 
 >>>>>>> 0e9e8a3a4774c0111a472f107cabcc8146d78aed
+=======
+-----test message----
+
+Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla.
+
+Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis.
+
+Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper.
+>>>>>>> bd9a92f0354f24caf32e6eaef2245608c8667b71
